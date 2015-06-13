@@ -53,7 +53,7 @@ def main():
     graph = [[0 for i in range(V+1)] for j in range(V+1)]
     for i in range(E):
         line = input().split(" ")
-        graph[int(line[1])][int(line[2])] = int(line[0])
+        graph[int(line[1])][int(line[2])] += int(line[0])
 
     print(edmonds_karp(graph, source, sink))
 
