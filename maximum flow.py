@@ -17,7 +17,7 @@ def breadth_first_search(graph, source, sink):
         src = queue.pop(0)
         for dest in range(len(graph)):
             if graph[src][dest] > 0 and dest not in path:
-                path[dest] = path[src] + {(src, dest)}
+                path[dest] = path[src] + [(src, dest)]
                 if dest == sink:
                     return path[dest]
                 queue.append(dest)
@@ -54,6 +54,8 @@ def main():
     for i in range(E):
         line = input().split(" ")
         graph[int(line[1])][int(line[2])] = int(line[0])
+
+    print(edmonds_karp(graph, source, sink))
 
 
 if __name__ == '__main__':
