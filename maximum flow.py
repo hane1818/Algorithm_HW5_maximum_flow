@@ -1,13 +1,5 @@
 import sys
 
-"""
-class Edge(object):
-    def __init__(self, src, dest, flow):
-        self.src = src
-        self.dest = dest
-        self.max_flow = flow
-"""
-
 
 def breadth_first_search(graph, source, sink):
     queue = [source]
