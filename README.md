@@ -1,5 +1,5 @@
 # Algorithm_HW5_maximum_flow
-Learn how to implement Edmonds-Karp algorithm to find maximum flow from source to sink
+Learn how to implement Edmonds-Karp algorithm to find maximum flow from source to sink.
 
 ## How to use
 ```bash
