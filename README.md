@@ -1,6 +1,9 @@
 # Algorithm_HW5_maximum_flow
 Learn how to implement Edmonds-Karp algorithm to find maximum flow from source to sink.
 
+## Language
+Python3
+
 ## How to use
 ```bash
 $ python "maximum flow.py"
